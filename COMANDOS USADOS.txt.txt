@@ -1,0 +1,27 @@
+COMANDOS USADOS
+
+1. COMANDOS DE CONFIGURAÇAO INICIAL
+
+$ git config --global user.name "nome da conta do GitHub"
+$ git config --global user.email "seu.email@dogithub.com"
+
+2. COMANDOS DE INICIALIZAÇAO
+
+$ git init (Inicializa o Git em uma pasta local)
+$ git branch -M main (Renomeia o branch principal para main)
+$ git remote add origin https://docs.github.com/ (Vincula o local ao remoto)
+$ git remote -v (Verifica a conexão remota)
+
+3. COMANDOS PARA ADICIONAR O CONTEUDO
+
+$ git status (Verifica o estado dos arquivos)
+$ git add . (Prepara arquivos para o commit)
+$ git commit -m "comentário aqui" (Salva o histórico)
+$ git push -u origin main (Envia o main para o GitHub)
+
+4. COMANDOS PARA ADD UMA NOVA BRANCH
+
+$ git checkout -b nova-branch (Cria e muda para a nova branch)
+$ git add .
+$ git commit -m "Commit exclusivo"
+$ git push -u origin nova-branch
