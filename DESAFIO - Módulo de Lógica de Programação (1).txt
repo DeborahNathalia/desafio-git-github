@@ -1,0 +1,53 @@
+﻿DESAFIO - Módulo de Lógica de Programação
+Data Limite: 09/12/2026
+
+
+Tema: Simulador de Caixa Eletrônico
+Descrição: Fazer um algoritmo passo a passo do processo para sacar em um caixa eletrônico
+
+
+
+
+________________
+
+
+
+
+
+
+1.Insira o cartão no local indicado;
+
+
+2.Verificar se o cartão é válido ;
+2.1.SE for válido, liberar acesso a conta.
+
+
+3.Abrir o menu de opções de serviços;
+3.1.Escolher a opção de saque.
+
+
+4.Digitar o valor que deseja sacar;
+4.1. SE o valor for <= ao valor na conta, liberar o saque.
+4.2. SE o valor for >= exibir mensagem de “saldo insuficiente” e mostrar as opções de digitar novamente um valor ou cancelar operação.
+
+
+5.Digitar senha para retirar o saque;
+5.Verificar senha;
+5.1. SE a senha estiver certa,liberar acesso ao saque. 
+5.2. SE NÃO exibir mensagem de digitar senha novamente.
+
+
+
+
+5.3. Tentativas de senha;
+5.4. ENQUANTO a senha estiver incorreta e o número de tentativas for <= 3 pode continuar digitando.
+5.5. SE a senha estiver errada após as tentativas, bloquear a operação e notificar o banco da tentativa de acesso. 
+
+
+7.Retirar o dinheiro no local indicado.
+
+
+8.Retirar o cartão.
+
+
+9.Encerrar a operação.
