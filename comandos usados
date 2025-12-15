@@ -25,3 +25,7 @@ $ git checkout -b nova-branch (Cria e muda para a nova branch)
 $ git add .
 $ git commit -m "Commit exclusivo"
 $ git push -u origin nova-branch
+
+5. ADIÇAO DE CONTEUDO E MUDANÇA DE NOME DE ARQUIVO
+$ git mv "DOC vazio.txt" "comandos usados"
+
